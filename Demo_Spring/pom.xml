@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>umg.edu</groupId>
-    <artifactId>Demo_Spring</artifactId>
+    <artifactId>catalogo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Demo_Spring</name>
-    <description>Demo_Spring</description>
+    <name>catalogo</name>
+    <description>catalogo</description>
     <url/>
     <licenses>
         <license/>
@@ -43,6 +43,12 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
             <artifactId>mariadb-java-client</artifactId>
